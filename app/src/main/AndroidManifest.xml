@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PanduanApp">
+        <activity
+            android:name=".Splash"
+            android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity
+            android:name=".peralatan"
+            android:exported="false" />
+        <activity
+            android:name=".tatacara"
+            android:exported="false" />
+        <activity
+            android:name=".obat"
+            android:exported="false" />
+        <activity
+            android:name=".makanan"
+            android:exported="false" />
+        <activity
+            android:name=".rinjani"
+            android:exported="false" />
+        <activity
+            android:name=".kerinci"
+            android:exported="false" />
+        <activity
+            android:name=".jayawijaya"
+            android:exported="false" />
+        <activity
+            android:name=".luarjawa"
+            android:exported="false" />
+        <activity
+            android:name=".bromo"
+            android:exported="false" />
+        <activity
+            android:name=".arjuno"
+            android:exported="false" />
+        <activity
+            android:name=".merbabu"
+            android:exported="false" />
+        <activity
+            android:name=".merapi"
+            android:exported="false" />
+        <activity
+            android:name=".lawu"
+            android:exported="false" />
+        <activity
+            android:name=".ciremai"
+            android:exported="false" />
+        <activity
+            android:name=".cikuray"
+            android:exported="false" />
+        <activity
+            android:name=".gede"
+            android:exported="false" />
+        <activity
+            android:name=".Jatim"
+            android:exported="false" />
+        <activity
+            android:name=".JatengActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Argopuro"
+            android:exported="false" />
+        <activity
+            android:name=".activity_jabar"
+            android:exported="false" />
+        <activity
+            android:name=".ArticleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false">
+        </activity>
+    </application>
+
+</manifest>
